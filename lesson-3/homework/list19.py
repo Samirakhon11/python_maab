@@ -4,7 +4,7 @@ def replace_first_occurrence(my_list, old, new):
         my_list[index] = new 
     return my_list
 
-n1 = int(input("Enter the number of elements for the first list:  "))
+n1 = int(input("Enter the number of elements for the first list: "))
 my_list = []
     
 for i in range(n1):
