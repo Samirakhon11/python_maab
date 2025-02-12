@@ -9,6 +9,5 @@ for i in range(n):
 for i in my_list:
     if i % 2 == 0:  
         even_count += 1
-        
 
 print("Number of even elements: ", even_count) 
