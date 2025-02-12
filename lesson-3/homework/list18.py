@@ -13,6 +13,6 @@ sublist = [item.strip() for item in user_sublist.split(',')]
 exists = check_sublist_exists(main_list, sublist)
 
 if exists:
-    print("The sublist exists within the main list.")
+    print("The sublist exists within the main list")
 else:
-    print("The sublist does not exist within the main list.")
+    print("The sublist does not exist within the main list")
