@@ -10,4 +10,4 @@ for i in my_list:
     if i % 2 != 0:  
         odd_count += 1
 
-print("Number of odd elements:", odd_count)
+print("Number of odd elements: ", odd_count)

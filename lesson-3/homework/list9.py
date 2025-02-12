@@ -1,4 +1,4 @@
-n = int(input("Enter the number of elements: "))
+n = int(input("Enter the number of elements:  "))
 original_l = []
     
 for i in range(n):

@@ -1,8 +1,8 @@
 def check_in_list(element, my_list):
     if element in my_list:
-        return f"The element {element} exists in the list"
+        return f"The element {element} exists in the list."
     else:
-        return f"The element {element} doesn't exist in the list"
+        return f"The element {element} doesn't exist in the list."
 
 n = int(input("Enter the number of elements: "))
 elements = []

@@ -7,4 +7,4 @@ for i in range(n):
 
 final_l = list(set(original_l))
 
-print("The new list: ", final_l)
+print("The new list:  ", final_l)

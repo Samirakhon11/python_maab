@@ -7,4 +7,4 @@ for i in range(n):
 
 original_l.sort()
 
-print("The new list: ", original_l)
+print("The new list:  ", original_l)

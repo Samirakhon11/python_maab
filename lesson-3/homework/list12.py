@@ -14,4 +14,4 @@ while True:
 new_element = input("Enter an element to insert: ")
 my_list.insert(index, new_element)
 
-print("The updated list: ", my_list)
+print("The updated list:  ", my_list)

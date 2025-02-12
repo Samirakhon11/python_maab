@@ -10,4 +10,4 @@ for i in range(n):
 
 final_l = original_l[:3]
 
-print("The new list: ", final_l)
+print("The new list:  ", final_l)

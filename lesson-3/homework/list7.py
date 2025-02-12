@@ -1,6 +1,6 @@
 def get_last_element(my_list):
     if not my_list or my_list == [""]:  
-        return "The list is empty"
+        return "The list is empty."
     return f"The last element is: {my_list[-1]}"
 
 n = input("Enter elements separated by comma (, ): ")
