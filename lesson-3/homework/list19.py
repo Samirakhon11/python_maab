@@ -4,10 +4,10 @@ def replace_first_occurrence(my_list, old, new):
         my_list[index] = new 
     return my_list
 
-n1 = int(input("Enter the number of elements for the first list: "))
+n = int(input("Enter the number of elements: "))
 my_list = []
     
-for i in range(n1):
+for i in range(n):
     element = input(f"Enter the element {i + 1}: ")
     my_list.append(element)
 
