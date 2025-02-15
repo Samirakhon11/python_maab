@@ -15,6 +15,8 @@ for i in range(n2):
 if not lst1 or not lst2:
     print("The lists are empty!")
 else:
-    lst_final = [i for i in lst1 if i not in lst2] + [j for j in lst2 if j not in lst1]
+    set1 = set(lst1)
+    set2 = set(lst2)
+    lst_final = list(set1.symmetric_difference(set2))
  
 print("New list: ", lst_final) 
