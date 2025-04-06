@@ -42,3 +42,4 @@ with sqlite3.connect("library.db") as connection:
     results = cursor.fetchall()
     for row in results:
         print(row) 
+        

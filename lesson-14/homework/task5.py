@@ -18,7 +18,7 @@ r = np.clip(r + 40, 0, 255)
 brightened_img = cv2.merge([r, g, b])  
 
 noise_level = 30
-noise = np.random.randint(-noise_level, noise_level, img_array.shape, dtype=np.int16)  
+noise = np.random.randint(-noise_level, noise_level, img_array.shape, dtype = np.int16)  
 noisy_img = np.clip(img_array + noise, 0, 255).astype(np.uint8)  
 
 flipped_v = flip_v_image(img_array)
